@@ -1,0 +1,127 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1,
+h2 {
+    margin: 25px;
+}
+
+main {
+   padding: 60px;
+}
+
+li {
+    display: inline;
+    padding: 0px 25px;
+}
+
+figcaption {
+    padding: 20px;
+}
+
+/* Come back and put Anchor tag "a" here */
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #034788;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid black;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-top: 5px solid black;
+}
+
+img {
+ display: block;
+ height: 550px;
+ width: 550px;
+margin: auto;
+}
+
+section {
+margin-bottom: 0;
+padding: 20px 10px 40px 10px;
+border-top: 3px solid black;
+}
+
+form {;
+    margin: auto;
+    width: 400px;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight:bolder;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:green ;
+    cursor: pointer;
+}
+
+#name,
+#email {
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Class Selectors Go Here */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
